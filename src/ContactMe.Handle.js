@@ -48,6 +48,7 @@ var trueValue = false
           showConfirmButton: false,
           timer: 4000
         });
+        setContactValue(initContactValue);
         setSpin(false)
    
     })
@@ -65,7 +66,7 @@ var trueValue = false
   }
   
 
-  return{contactValue,contactHandler,sendMail,Gsm,setGsm,trueValue,errors}
+  return{contactValue,contactHandler,sendMail,Gsm,setGsm,trueValue,errors,spin}
 }
 
 export default ContactMe
