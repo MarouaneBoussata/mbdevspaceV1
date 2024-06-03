@@ -1,0 +1,68 @@
+import  { useState } from 'react'
+import axios from 'axios'
+import Swal from 'sweetalert2'
+import Validation from './Validation'
+
+const ContactMe = () => {
+  const initContactValue = {
+    FirstName :"",
+    SecondName :"",
+    email:"",
+    subject :"",
+    description:""
+  }
+  const[Gsm,setGsm]=useState()
+  const [errors,setErrors]=useState({})
+  const [contactValue,setContactValue] = useState(initContactValue)
+  const contactHandler = (e)=>{
+    const newValue={...contactValue}
+    newValue[e.target.id]=e.target.value
+    setContactValue(newValue)
+  }
+var trueValue = false
+
+  const sendMail = (e) => {
+    e.preventDefault()
+     setErrors(Validation(contactValue))
+    axios.get("https://mb6dev-1c775baccbdb.herokuapp.com",{
+        params:{
+            email:contactValue.email,
+            subject:contactValue.subject,
+            description:contactValue.description,
+            FirstName:contactValue.FirstName,
+            SecondName:contactValue.SecondName,
+            Gsm,
+           
+        },
+        
+    })
+    
+    .then(()=>{
+       
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Email sent successfully",
+          showConfirmButton: false,
+          timer: 4000
+        });
+   
+    })
+    .catch(()=>{
+        Swal.fire({
+            position: "center",
+            icon: "error",
+            title: "Email not sent, something went wrong!",
+            showConfirmButton: true,
+            timer: 4000
+          });
+     
+
+    });
+  }
+  
+
+  return{contactValue,contactHandler,sendMail,Gsm,setGsm,trueValue,errors}
+}
+
+export default ContactMe
