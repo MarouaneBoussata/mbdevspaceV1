@@ -56,7 +56,7 @@ const {contactValue, contactHandler,sendMail,Gsm,setGsm,errors} = contactMe();
         {errors.subject && <p className='text-danger'>{errors.subject}</p>}
         <MDBTextArea wrapperClass='mb-4' label='description' placeholder='Write you demand here ...' id='description' value={contactValue.description} onChange={contactHandler} type='text'/>
         {errors.description && <p className='text-danger'>{errors.description}</p>}
-        <button onClick={sendMail} className='w-100 btn btn-success mb-4' size='md'>Submit</button>
+        <button onClick={sendMail} className='w-100 btn btn-success mb-4' size='md'> <MDBIcon far icon="paper-plane" /> | SEND</button>
         <div className="text-center">
 
           <p>or you can direct me on social medias</p>

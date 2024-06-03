@@ -12,6 +12,7 @@ const ContactMe = () => {
     description:""
   }
   const[Gsm,setGsm]=useState()
+  const [spin,setSpin]=useState(false)
   const [errors,setErrors]=useState({})
   const [contactValue,setContactValue] = useState(initContactValue)
   const contactHandler = (e)=>{
@@ -22,6 +23,7 @@ const ContactMe = () => {
 var trueValue = false
 
   const sendMail = (e) => {
+    setSpin(true)
     e.preventDefault()
      setErrors(Validation(contactValue))
     axios.get("https://mb6dev-1c775baccbdb.herokuapp.com",{
@@ -46,6 +48,7 @@ var trueValue = false
           showConfirmButton: false,
           timer: 4000
         });
+        setSpin(false)
    
     })
     .catch(()=>{
@@ -56,7 +59,7 @@ var trueValue = false
             showConfirmButton: true,
             timer: 4000
           });
-     
+     setSpin(false)
 
     });
   }
