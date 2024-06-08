@@ -26,7 +26,7 @@ var trueValue = false
     setSpin(true)
     e.preventDefault()
      setErrors(Validation(contactValue))
-    axios.get("https://mb6dev-1c775baccbdb.herokuapp.com",{
+    axios.get("https://mb6devspace-backend.onrender.com",{
         params:{
             email:contactValue.email,
             subject:contactValue.subject,

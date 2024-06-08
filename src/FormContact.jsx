@@ -47,6 +47,8 @@ const {contactValue, contactHandler,sendMail,Gsm,setGsm,errors,spin} = contactMe
         {errors.email && <p className='text-danger'>{errors.email}</p>}
         <div className='mt-2 mb-4'>
         <PhoneInput
+        wrapperClass='mb-4'
+        
       placeholder="Enter phone number(optional)"
       value={Gsm}
       onChange={setGsm}

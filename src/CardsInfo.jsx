@@ -17,8 +17,7 @@ import img5 from './Images/360_F_633010478_nv1cWaUesz6cemPGZMtlgDjmSVNA3leq.jpg'
 const PDF_FILE_URL = "https://mb6devops.netlify.app/MYCV.pdf";
 export default function App() {
   const [downloading, setDownloading] = useState(false);
-    
-        
+      
   const downloadFileAtURL = (url) => {
     setDownloading(true);
     setTimeout(() => {
