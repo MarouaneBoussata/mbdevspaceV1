@@ -26,7 +26,7 @@ var trueValue = false
     setSpin(true)
     e.preventDefault()
      setErrors(Validation(contactValue))
-    axios.get("https://mb6devspace-backend.onrender.com",{
+    axios.get("https://mb-6devspace-backend.vercel.app",{
         params:{
             email:contactValue.email,
             subject:contactValue.subject,
