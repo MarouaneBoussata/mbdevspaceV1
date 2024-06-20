@@ -6,6 +6,7 @@ import { MDBAccordion, MDBAccordionItem, MDBIcon } from 'mdb-react-ui-kit';
 import './Skillstech'
 import Breadcrumb from './Breadcrumb';
 import Skillstech from './Skillstech';
+import Certificate from './Certificate';
 const Skills = () => {
   return (
     <div>
@@ -75,8 +76,23 @@ const Skills = () => {
     </section>
     
     <section className=' mb-5 mt-5 '  >
+    <h3>Technologies</h3>
+    <p className='skills-p1'>
+
+    I specialize in developing robust applications using a variety of essential technologies. For front-end and back-end development, I leverage JavaScript extensively. It allows me to create flexible and powerful solutions that enhance user experience and application functionality. In database management, I am proficient in SQL, ensuring efficient data handling and optimization. This includes expertise in managing MSSQL, MySQL, and Oracle databases, ensuring reliable data solutions across different platforms. Additionally, I am skilled in version control, testing frameworks, and deployment tools, enabling me to deliver high-quality, scalable applications tailored to meet specific project requirements and industry standards.    </p>
     <Skillstech/>
 
+      </section>
+
+      <section className=' mb-5 mt-5 '  >
+    <h3>Cetification</h3>
+    <p className='skills-p1'>
+    
+I hold certifications in Front-End Development with React and Back-End Development with Node.js and Express from Coursera. These certifications have equipped me with comprehensive skills in building dynamic and responsive web applications using React, mastering component-based architecture, state management, and React Router for single-page applications. Additionally, I have developed robust proficiency in server-side development with Node.js and Express, enabling me to build RESTful APIs, manage databases with MongoDB, and implement authentication and authorization mechanisms. These credentials reflect my ability to develop and maintain full-stack applications, ensuring seamless integration and optimal performance.
+    </p>
+<div className=' setmaxwith'>
+    <Certificate/>
+    </div>
       </section>
 
 

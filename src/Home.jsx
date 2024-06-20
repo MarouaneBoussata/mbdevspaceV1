@@ -63,7 +63,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
 
           <div >         
 <p className='p' data-aos-duration='5500' data-aos='fade-right' >
-  I am a Node.js developer proficient in React.js and Express, with a strong background in website and application development, as well as database administration.fee free to <a href='/contactMe' className='btn-one text-primary bold'>Contact me </a> for any help ! 
+  I am a Node.js developer proficient in React.js and Express, with a strong background in website and application development, as well as database administration.feel free to <a href='/contactMe' className='btn-one text-primary bold'>Contact me </a> for any help ! 
   </p>
         <a href='https://github.com/MarouaneBoussata' target='_blank' className=' hover-shadow m-2'><MDBIcon fab icon="github" size='2xl' color='black' /></a>
         <a href='http://www.linkedin.com/in/marouaneboussata' target='_blank' className=' hover-shadow m-2'><MDBIcon fab icon="linkedin" size='2xl' color='black' /></a>
@@ -79,7 +79,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
 
 
  
-          <div className='setProfilePosition'>
+          <div className='setProfilePosition' data-aos-duration='6500' data-aos='zoom-in'>
           <img src={imgprfl} className='profilePicture' alt='notFound'/>
           </div>
 
@@ -106,13 +106,14 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
 
       
     </MDBContainer>
-  <section className='Projects setSection  setIndexP'>   
+  <section className='setCertificate setSection  setIndexP'>   
 <div className=' setIndexP '>
   <h1 className='setTitle mb-5'>
   <div className='setIndexP' data-aos-duration='4500'
  data-aos='zoom-in' > <MDBCardTitle className='setTitleCard '> CERTIFICATION </MDBCardTitle> </div>
   </h1>
-  <div className='setmaxwith'>
+  <div className='setmaxwith' data-aos-duration='5500'
+    data-aos='zoom-in'>
     <Certificate/>
     </div>  
     </div>

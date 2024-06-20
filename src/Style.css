@@ -26,6 +26,14 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 }
+.setCertificate{
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
 
 .setSection2{
   height: 130vh;
@@ -553,6 +561,7 @@ background-color:#cecece;
 .setmaxwith{
 max-width: 1000px;
 margin: 5%;
+
 }
 
 
@@ -574,6 +583,11 @@ width: auto !important;
         height: auto;
         width: auto;
         }
+        .setCertificate{
+          height: auto;
+          width: auto%;
+          
+          }
 }
 
 .btnSet {
