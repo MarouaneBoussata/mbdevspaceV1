@@ -486,7 +486,9 @@ background: linear-gradient(225deg, rgba(245,245,245,1) 62%, rgba(186,186,186,1)
   font-size:large;
 }
 .setIndexP{
-z-index: 2;
+z-index: 5;
+
+
 }
 
 .cascading-right {
@@ -517,6 +519,9 @@ z-index: 2;
 .PrjtCarousels{
   z-index: -3;
 }
+.setModalIndex{
+  z-index: 5;
+}
 .skills-p1{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 200;
@@ -540,6 +545,16 @@ background-color:#cecece;
 .setPrjctH{
   max-height: 550px;
 }
+
+
+.setW{
+  max-width: 370px;
+}
+.setmaxwith{
+max-width: 1000px;
+margin: 5%;
+}
+
 
 @media screen and (min-width:0px) and (max-width : 768px) {
   .contentSection1{
@@ -623,3 +638,18 @@ width: auto !important;
    font-weight: 600;
    color: #00043f; margin: 30px;
 }
+.certificates-title{
+  font-size:20PX !important;
+  font-family:'Courier New', Courier, monospace;
+  color: #00043f  !important;
+font-weight: 700  !important;
+}
+.bgcolor{
+background-color: #e7ebff !important;
+}
+.bgcolor:hover{
+  background-color: #061f74 !important;
+  color: white !important;
+  
+  }
+

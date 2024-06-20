@@ -11,6 +11,7 @@ import Project from './Projects';
 import CardsInfo from './CardsInfo';
 import Skillstech from './Skillstech';
 import FormContact from './FormContact';
+import Certificate from './Certificate';
 
 function Home() {
 
@@ -97,13 +98,27 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
    </div>
       </section>
       <section className='setMttech ' >
-  
      <div className=' mb-5' > <MDBCardTitle className='setTitleCard text-uppercase '>most technologies i use </MDBCardTitle> </div>
  <div data-aos='fade-down' data-aos-duration='5500' data-aos-delay='200' >
 <Skillstech />
 </div>
       </section>
+
+      
     </MDBContainer>
+  <section className='Projects setSection  setIndexP'>   
+<div className=' setIndexP '>
+  <h1 className='setTitle mb-5'>
+  <div className='setIndexP' data-aos-duration='4500'
+ data-aos='zoom-in' > <MDBCardTitle className='setTitleCard '> CERTIFICATION </MDBCardTitle> </div>
+  </h1>
+  <div className='setmaxwith'>
+    <Certificate/>
+    </div>  
+    </div>
+  </section>
+
+
   <section className='Projects setSection  setIndexP'>   
 <div className=' setIndexP '>
   <h1 className='setTitle mb-5'>
@@ -114,6 +129,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
     <Project/>
     </div>  
   </section>
+  
 
 
   <section className='setSection2 '>

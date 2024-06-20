@@ -35,7 +35,7 @@ const Skills = () => {
 
             </p>
         </div>
-    <MDBAccordion initialActive={1}>
+    <MDBAccordion  borderless initialActive={1}>
       <MDBAccordionItem className='setWidthAccordion' collapseId={1} headerTitle={<><MDBIcon fas icon="question-circle" /> &nbsp; Basic Programming</>}>
       I possess strong foundational skills in several programming languages including C, C++, Java, and C#. These languages form the core of my programming knowledge, allowing me to understand and implement efficient algorithms and develop robust software applications. My proficiency in these languages enables me to tackle a wide range of technical challenges and build solutions that are both scalable and maintainable.
       </MDBAccordionItem>
