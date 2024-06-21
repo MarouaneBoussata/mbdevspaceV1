@@ -48,7 +48,6 @@ const {contactValue, contactHandler,sendMail,Gsm,setGsm,errors,spin} = contactMe
         <div className='mt-2 mb-4'>
         <PhoneInput
         wrapperClass='mb-4'
-        
       placeholder="Enter phone number(optional)"
       value={Gsm}
       onChange={setGsm}
