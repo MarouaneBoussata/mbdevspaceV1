@@ -14,7 +14,7 @@ import img22 from './Images/2AB4F216-0BA1-4C75-AA6B-EA7838614F95.jpg'
 import img2 from './Images/istockphoto-1344939844-612x612.jpg'
 import img3 from './Images/istockphoto-1459313027-612x612.jpg'
 import img5 from './Images/360_F_633010478_nv1cWaUesz6cemPGZMtlgDjmSVNA3leq.jpg'
-const PDF_FILE_URL = "https://mb6devops.netlify.app/MYCV.pdf";
+const PDF_FILE_URL = "https://mb6devops.netlify.app/officialCV.pdf";
 export default function App() {
   const [downloading, setDownloading] = useState(false);
       
