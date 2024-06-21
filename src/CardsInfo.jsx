@@ -51,7 +51,7 @@ export default function App() {
     <MDBCard  className='cardInfo' background='' >
       <MDBRow className='g-0'>
         <MDBCol md='4'>
-          <MDBCardImage src={img22}  alt='...' fluid />
+          <MDBCardImage src={img22}  alt='devspace mb6devspace portfolio images' fluid />
         </MDBCol>
         <MDBCol md='8'>
           <MDBCardBody>
@@ -65,7 +65,7 @@ export default function App() {
           <MDBCardImage
             src={img2}
             className='setSubcImage'
-            alt='...'
+            alt='mb6devspace portfolio images devspace'
             position='top'
           />
           <MDBCardBody>
@@ -82,7 +82,7 @@ export default function App() {
           <MDBCardImage
             src={img3}
             className='setSubcImage'
-            alt='...'
+            alt='mb6devspace portfolio images devspace'
             position='top'
           />
           <MDBCardBody>
@@ -98,7 +98,7 @@ export default function App() {
           <MDBCardImage
             src={img5}
             className='setSubcImage'
-            alt='...'
+            alt='mb6devspace portfolio images devspace'
             position='top'
           />
           <MDBCardBody>

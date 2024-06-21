@@ -80,7 +80,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
 
  
           <div className='setProfilePosition' data-aos-duration='6500' data-aos='zoom-in'>
-          <img src={imgprfl} className='profilePicture' alt='notFound'/>
+          <img src={imgprfl} className='profilePicture' alt='devspace portfolio images devspace marouane'/>
           </div>
 
 

@@ -68,7 +68,7 @@ export default function Project() {
         <MDBCard className='setPrjctH zoom' >
           <MDBCardImage
             src={prjt1}
-            alt='...'
+            alt='Medicines plateform'
             position='top'
           />
           <MDBCardBody>
@@ -93,7 +93,7 @@ export default function Project() {
         <MDBCard className='setPrjctH zoom'>
           <MDBCardImage
             src={prjt1}
-            alt='...'
+            alt='mb6 devspace portfolio images devspace'
             position='top'
           />
           <MDBCardBody>
@@ -113,7 +113,7 @@ export default function Project() {
         <MDBCard className='setPrjctH zoom'>
           <MDBCardImage
             src={prjt2}
-            alt='...'
+            alt='mb6 devspace portfolio images devspace'
             position='top'
           />
           <MDBCardBody>
@@ -134,7 +134,7 @@ Apps of Electronic Invoice Signature and Bills Management Systems </MDBCardTitle
           <MDBCardImage
             src={prjt3}
             height={183}
-            alt='...'
+            alt='mb6 devspace portfolio images devspace'
             position='top'
           />
           <MDBCardBody>
@@ -164,7 +164,7 @@ data-aos='zoom-in'>
 <MDBCard className='setPrjctH zoom' >
 <MDBCardImage
   src={prjt7}
-  alt='...'
+  alt='mb6 devspace portfolio images devspace'
   position='top'
 />
 <MDBCardBody>

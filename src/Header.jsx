@@ -10,11 +10,6 @@ import {
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
-  MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 export default function Header() {
@@ -42,7 +37,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
     <MDBContainer fluid className='position-sticky'>
     <MDBNavbarBrand className=''> 
        <div>
-       <img src={logoPortfolio} className='brandIcon' /> </div>
+       <img src={logoPortfolio} className='brandIcon' alt='mb6 devspace mb6 devspace' /> </div>
        <div> <p className='brandText'> <span className='brandSpan1'> MB6 </span> DevSpace </p> </div> 
         </MDBNavbarBrand>
         <MDBNavbarToggler
