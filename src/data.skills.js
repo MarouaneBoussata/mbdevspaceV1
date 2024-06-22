@@ -125,7 +125,7 @@ color:'warning'
                 img:html,
                 name:'HTML',
                 toolTips:'HTML',
-                width:'90',
+                width:'99',
                 percent:'99%',
                 color:'danger'
                 },

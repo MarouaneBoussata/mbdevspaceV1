@@ -36,7 +36,10 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
     <MDBNavbar expand='lg' fixed='top' className='setHeader'>
     <MDBContainer fluid className='position-sticky'>
     <MDBNavbarBrand className=''> 
-       <div>
+       <div 
+         data-aos-duration='3500'
+         data-aos-delay='100'
+         data-aos='fade-right'>
        <img src={logoPortfolio} className='brandIcon' alt='mb6 devspace mb6 devspace' /> </div>
        <div> <p className='brandText'> <span className='brandSpan1'> MB6 </span> DevSpace </p> </div> 
         </MDBNavbarBrand>
@@ -49,7 +52,9 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
           <MDBIcon icon='bars' fas />
         </MDBNavbarToggler>
         <MDBCollapse navbar open={openBasic}>
-          <MDBNavbarNav className='mr-auto d-flex justify-content-center mb-2 mb-lg-0 '>
+          <MDBNavbarNav data-aos-duration='5500'
+         data-aos-delay='100'
+         data-aos='fade-down' className='mr-auto d-flex justify-content-center mb-2 mb-lg-0 '>
             <MDBNavbarItem>
             <MDBNavbarLink className=''  active aria-current='page' href='/'> 
             <span className='setItemNav'> Home </span>
