@@ -42,15 +42,15 @@ export default function Project() {
   return (
     <div className='setIndexP' >
      
-      <MDBTabs pills className='mb-5 setIndexP setTabsDir '>
+      <MDBTabs pills className='mb-5 setIndexP setTabsDir  '>
         <MDBTabsItem >
-          <MDBTabsLink className=' ' onClick={() => handleIconsClick('pill1')} active={iconsActive === 'pill1'}>
+          <MDBTabsLink className=' setbga text-white' onClick={() => handleIconsClick('pill1')} active={iconsActive === 'pill1'}>
            <MDBIcon fas icon="laptop" /> Website and web application
           </MDBTabsLink>
         </MDBTabsItem>
       
         <MDBTabsItem>
-          <MDBTabsLink  onClick={() => handleIconsClick('pill2')} active={iconsActive === 'pill2'}>
+          <MDBTabsLink className=' setbga text-white'    onClick={() => handleIconsClick('pill2')} active={iconsActive === 'pill2'}>
           <MDBIcon fas icon='cogs' size='xl' className='me-2' /> Other
           </MDBTabsLink>
         </MDBTabsItem>

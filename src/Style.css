@@ -714,3 +714,11 @@ background-color: #e7ebff !important;
 .setbgbutton:hover{
  transform: scale(.99);
 }
+.setbga{
+  background: rgb(17,6,73) !important; 
+  background: linear-gradient(225deg, rgba(17,6,73,1) 60%, rgba(60,75,133,1) 60%, rgba(17,6,73,1) 97%) !important;
+}
+.setbga:hover{
+  background: rgb(0,23,89)  !important;
+ background: linear-gradient(225deg, rgba(17,6,73,1) 60%, rgba(60,75,133,1) 60%, rgba(17,6,73,1) 97%) !important;background: linear-gradient(225deg, rgba(0,23,89,1) 30%, rgba(40,14,119,1) 41%, rgba(14,31,98,1) 63%) !important;
+}
