@@ -109,8 +109,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
   <section className='setCertificate setSection  setIndexP'>   
 <div className=' setIndexP '>
   <h1 className='setTitle mb-5'>
-  <div className='setIndexP' data-aos-duration='4500'
- data-aos='zoom-in' > <MDBCardTitle className='setTitleCard '> CERTIFICATION </MDBCardTitle> </div>
+  <div className='setIndexP' > <MDBCardTitle className='setTitleCard '> CERTIFICATION </MDBCardTitle> </div>
   </h1>
   <div className='setmaxwith' data-aos-duration='5500'
     data-aos='zoom-in'>
