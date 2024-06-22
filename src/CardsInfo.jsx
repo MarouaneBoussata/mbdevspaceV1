@@ -48,7 +48,7 @@ export default function App() {
   };
 
   return (
-    <MDBCard  className='cardInfo' background='' >
+    <MDBCard  className='cardInfo' >
       <MDBRow className='g-0'>
         <MDBCol md='4'>
           <MDBCardImage src={img22}  alt='devspace mb6devspace portfolio images' fluid />
@@ -113,7 +113,7 @@ export default function App() {
     </MDBRow>
           
     <div className=' m-4 d-flex justify-content-center'>
-    <button className='btn btn-black border' onClick={() => downloadFileAtURL(PDF_FILE_URL)}>
+    <button className='btn setbgbutton text-white border' onClick={() => downloadFileAtURL(PDF_FILE_URL)}>
       {downloading ? (
         <MDBSpinner color='light' size='sm'>
           <span className='visually-hidden'>Loading...</span>

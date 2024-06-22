@@ -58,7 +58,7 @@ const {contactValue, contactHandler,sendMail,Gsm,setGsm,errors,spin} = contactMe
         <MDBTextArea wrapperClass='mb-4' label='description' placeholder='Write you demand here ...' id='description' value={contactValue.description} onChange={contactHandler} type='text'/>
         {errors.description && <p className='text-danger'>{errors.description}</p>}
     
-        <button onClick={sendMail} className='w-100 btn btn-primary shadow-lg mb-4' size='md'>
+        <button onClick={sendMail} className='w-100 btn btn-primary shadow-lg mb-4 setbgbutton' size='md'>
       {spin ? (
         <MDBSpinner grow color='light'>
           <span className='visually-hidden'>Loading...</span>

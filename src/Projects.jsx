@@ -77,7 +77,7 @@ export default function Project() {
             Our web application is designed to offer a streamlined and efficient experience for both users and administrators. By leveraging modern technologies like ReactJS for the front end and Laravel for the back end, we ensure a responsive and robust platform.
            
             </MDBCardText>
-            <MDBBtn className=' btn-info' onClick={submit} >View more ...</MDBBtn>
+            <MDBBtn className=' btn setprjtbtn' onClick={submit} >View more ...</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -101,7 +101,7 @@ export default function Project() {
             <MDBCardText className='card_previewText'>
             Handling the frontend following the completion of a resident doctors management application based on the REACT.JS and LARAVEL frameworks.
             </MDBCardText>
-            <MDBBtn className=' btn-info' onClick={(evt)=>Navigate('/project1')} >View more ...</MDBBtn>
+            <MDBBtn className=' btn setprjtbtn' onClick={(evt)=>Navigate('/project1')} >View more ...</MDBBtn>
           </MDBCardBody>
         </MDBCard >
       </MDBCol>
@@ -122,7 +122,7 @@ Apps of Electronic Invoice Signature and Bills Management Systems </MDBCardTitle
             <MDBCardText className='card_previewText'>
             Embark on a journey of streamlined electronic invoice management and enhanced supplier relationship dynamics with our meticulously crafted Electronic Invoice Signature Application and Supplier Management system. Engineered with precision on the robust REACT.JS and EXPRESS.JS frameworks (NODE.JS), our solution promises unparalleled efficiency and scalability.
             </MDBCardText>
-            <MDBBtn className=' btn-info' onClick={(evt)=>Navigate('/project2')} >View more ...</MDBBtn>
+            <MDBBtn className='btn setprjtbtn' onClick={(evt)=>Navigate('/project2')} >View more ...</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -143,7 +143,7 @@ Apps of Electronic Invoice Signature and Bills Management Systems </MDBCardTitle
             Real-Time Temperature Updates for Regions in Morocco" is an application that provides live temperature updates for various regions across Morocco. This project entails the operation of collecting temperature data from different locations in Morocco and displaying it in real-time on the application interface. Users can easily access up-to-date temperature information for specific regions, enabling them to make informed decisions based on current weather conditions. This application serves as a convenient tool for individuals and businesses alike, offering valuable insights into temperature variations across different parts of Morocco.
            
             </MDBCardText>
-            <MDBBtn className=' btn-info' onClick={(evt)=>Navigate('/project3')}>View more ...</MDBBtn>
+            <MDBBtn className='btn setprjtbtn' onClick={(evt)=>Navigate('/project3')}>View more ...</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -172,7 +172,7 @@ data-aos='zoom-in'>
   <MDBCardText className='card_previewText'>
   The Migration to a WordPress Theme" involves transferring a website, originally built using HTML, CSS, Bootstrap, and JavaScript, into a WordPress theme. This migration process seamlessly transitions all existing resources and functionalities to the WordPress platform, ensuring compatibility and optimal performance. 
   </MDBCardText>
-  <MDBBtn className=' btn-info' href='https://www.digiflow.ma/'target="_blank" >View more ...</MDBBtn>
+  <MDBBtn className=' btn setprjtbtn' href='https://www.digiflow.ma/'target="_blank" >View more ...</MDBBtn>
 </MDBCardBody>
 </MDBCard>
 </MDBCol>

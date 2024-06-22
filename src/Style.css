@@ -100,6 +100,7 @@ justify-content: center;
 }
 .cardInfo{
   max-width: 1500px;
+ 
 }
 .Subcard{
   max-width: 250px;
@@ -108,6 +109,11 @@ justify-content: center;
 
 .setCarousel{
   max-width: 700px;
+}
+.setprjtbtn{
+  background: rgb(3,167,177);
+background: linear-gradient(225deg, rgba(3,167,177,1) 41%, rgba(13,212,224,1) 41%, rgba(0,174,187,1) 52%);
+
 }
 .setBlock{
   display: block !important;
@@ -618,7 +624,8 @@ width: auto !important;
 
 .btnSet {
   border-radius: 50px;
-  background-color: #060141;
+  background: rgb(17,6,73);
+  background: linear-gradient(225deg, rgba(17,6,73,1) 60%, rgba(60,75,133,1) 60%, rgba(17,6,73,1) 97%);
   border: none;
   color: #fff;
   text-align: center;
@@ -692,4 +699,18 @@ background-color: #e7ebff !important;
   color: white !important;
   
   }
+  .setbgb{
+    background: rgb(17,6,73);
+    background: linear-gradient(225deg, rgba(17,6,73,1) 60%, rgba(60,75,133,1) 60%, rgba(17,6,73,1) 97%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+  }
 
+.setbgbutton{
+  background: rgb(17,6,73);
+  background: linear-gradient(225deg, rgba(17,6,73,1) 60%, rgba(60,75,133,1) 60%, rgba(17,6,73,1) 97%);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+}
+
+.setbgbutton:hover{
+ transform: scale(.99);
+}

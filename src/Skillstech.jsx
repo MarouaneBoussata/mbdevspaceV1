@@ -37,7 +37,7 @@ else if(showNof >= 4 && showNof <= 13) {
     <div >
       
       <MDBCard background='white' className='d-flex justify-content-center text-white setbgCrd'>
-        <MDBCardHeader className='fw-bold text-primary fs-5 d-flex justify-content-center'> Technical skills  </MDBCardHeader>
+        <MDBCardHeader className='fw-bold fs-5 d-flex justify-content-center setbgb text-white'> Technical skills  </MDBCardHeader>
         <MDBCardBody>
         {slice.map((item,index)=>{
           return(

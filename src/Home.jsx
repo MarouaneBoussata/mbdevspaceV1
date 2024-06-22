@@ -93,13 +93,13 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
       <section className='setSection setSectionAbout' ref={ref}>
      <div className=' mb-5 mt-5'> <MDBCardTitle className='setTitleCard '>ABOUT ME </MDBCardTitle> </div>
     <div data-aos='zoom-in' data-aos-duration='6500' data-aos-delay='500'> <p className="Philosophy" > " Prioritizing the needs and preferences of users. " </p> </div>
-  <div data-aos='fade-up' data-aos-duration='5500'>
+  <div data-aos='zoom-in' data-aos-duration='4500'data-aos-delay='550'>
    <CardsInfo/>
    </div>
       </section>
       <section className='setMttech ' >
      <div className=' mb-5' > <MDBCardTitle className='setTitleCard text-uppercase '>most technologies i use </MDBCardTitle> </div>
- <div data-aos='fade-down' data-aos-duration='5500' data-aos-delay='200' >
+ <div data-aos='zoom-in' data-aos-duration='5500' data-aos-delay='100' >
 <Skillstech />
 </div>
       </section>
