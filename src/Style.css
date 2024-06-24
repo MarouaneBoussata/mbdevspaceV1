@@ -136,15 +136,18 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  
 }
 
 
 .setHeader{
-  z-index: 5;
+  
   background-color: #f8f8f8b7;
 }
-
+.subCards{
+  background: rgb(12,0,41);
+  background: linear-gradient(0deg, rgba(12,0,41,1) 0%, rgba(240,241,245,0) 53%);
+}
 .brandIcon{
   height: 50px;
 }
@@ -211,25 +214,16 @@ span.typing  {
     animation: type 5s steps(11) infinite;
 }
 
-.videoBG{
-  position: fixed ;
-  z-index: -1;
-  right: 0;
-  bottom: 0;
-  object-fit: cover;
-}
 .slides{
   overflow: hidden;
 }
-.content{
-  z-index: 1;
-} 
+
 .setMt{
   margin-top: -100px;
 }
 
 .contentSection1{
-z-index: 2;
+
 display: flex;
 margin-top: 10%;
 height:75vh;
@@ -525,11 +519,7 @@ background: linear-gradient(225deg, rgba(245,245,245,1) 62%, rgba(186,186,186,1)
   text-align: justify;
   font-size:large;
 }
-.setIndexP{
-z-index: 5;
 
-
-}
 
 .cascading-right {
   margin-right: -50px;
@@ -556,12 +546,8 @@ z-index: 5;
   justify-content: center;
   
 }
-.PrjtCarousels{
-  z-index: -3;
-}
-.setModalIndex{
-  z-index: 5;
-}
+
+
 .skills-p1{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 200;
@@ -721,4 +707,7 @@ background-color: #e7ebff !important;
 .setbga:hover{
   background: rgb(0,23,89)  !important;
  background: linear-gradient(225deg, rgba(17,6,73,1) 60%, rgba(60,75,133,1) 60%, rgba(17,6,73,1) 97%) !important;background: linear-gradient(225deg, rgba(0,23,89,1) 30%, rgba(40,14,119,1) 41%, rgba(14,31,98,1) 63%) !important;
+}
+.setIndex1{z-index:5 !important;
+background-color: #00043f;
 }

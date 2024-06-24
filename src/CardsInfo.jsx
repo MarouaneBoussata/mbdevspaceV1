@@ -14,7 +14,10 @@ import img22 from './Images/2AB4F216-0BA1-4C75-AA6B-EA7838614F95.jpg'
 import img2 from './Images/istockphoto-1344939844-612x612.jpg'
 import img3 from './Images/istockphoto-1459313027-612x612.jpg'
 import img5 from './Images/360_F_633010478_nv1cWaUesz6cemPGZMtlgDjmSVNA3leq.jpg'
-const PDF_FILE_URL = "https://mb6devops.netlify.app/Marouane_Boussata_CV";
+import ExperienceModal from './ExperienceModal';
+import ProjectModal from './ProjectsModal';
+import ServiceModal from './ServiceModal';
+const PDF_FILE_URL = "https://mb6devops.netlify.app/Marouane_BoussataCV.pdf";
 export default function App() {
   const [downloading, setDownloading] = useState(false);
       
@@ -61,50 +64,74 @@ export default function App() {
 
             <MDBRow className='row-cols-1 row-cols-md-3 g-3 ms-3'>
       <MDBCol >
+        
         <MDBCard className='Subcard'>
-          <MDBCardImage
+        <div className='bg-image'>
+        <MDBCardImage
             src={img2}
             className='setSubcImage'
             alt='mb6devspace portfolio images devspace'
             position='top'
           />
+      <div className='mask subCards ' >
+        <div className='d-flex justify-content-center align-items-center h-100'>
+          <p className='text-white fw-bolder text-uppercase mb-0'>Junior</p>
+        </div>
+      </div>
+    </div>
+         
           <MDBCardBody>
            <div className=' d-flex justify-content-center'> <MDBCardTitle> <MDBIcon fas icon="business-time" /> | EXPERIENCE</MDBCardTitle> </div>
             <MDBCardText  className=' d-flex justify-content-center'>
-         <p className=' fw-bold text-primary'> Junior ( 1,5 years ) </p>
-    
+                 <ExperienceModal/>
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
       <MDBCol>
         <MDBCard className='Subcard'>
-          <MDBCardImage
+          
+                  <div className='bg-image'>
+            <MDBCardImage
             src={img3}
             className='setSubcImage'
             alt='mb6devspace portfolio images devspace'
             position='top'
           />
+      <div className='mask subCards ' >
+        <div className='d-flex justify-content-center align-items-center h-100'>
+          <p className='text-white fw-bolder text-uppercase mb-0'>+5 PROJECTS</p>
+        </div>
+      </div>
+    </div>
           <MDBCardBody>
-          <div className=' d-flex justify-content-center'> <MDBCardTitle> <MDBIcon fas icon="project-diagram" /> | COMPLETED</MDBCardTitle> </div>
+          <div className=' d-flex justify-content-center'> <MDBCardTitle> <MDBIcon fas icon="project-diagram" /> | PROJECT</MDBCardTitle> </div>
             <MDBCardText className=' d-flex justify-content-center '>
-        <p className='fw-bold text-primary'> + 5 projects </p>
+       <ProjectModal/>
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
       <MDBCol>
         <MDBCard className='Subcard'>
-          <MDBCardImage
+        <div className='bg-image'>
+        <MDBCardImage
             src={img5}
             className='setSubcImage'
             alt='mb6devspace portfolio images devspace'
             position='top'
           />
+      <div className='mask subCards ' >
+        <div className='d-flex justify-content-center align-items-center h-100'>
+          <p className='text-white fw-bolder text-uppercase mb-0'>AVAILABLE 24/7</p>
+        </div>
+      </div>
+    </div>
+     
           <MDBCardBody>
           <div className=' d-flex justify-content-center'> <MDBCardTitle> <MDBIcon fas icon="headset" /> | SERVICE</MDBCardTitle> </div>
             <MDBCardText  className=' d-flex justify-content-center'>
-            <p className='fw-bold text-primary'> AVAILABLE 24/7 </p>
+            <ServiceModal/>
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
