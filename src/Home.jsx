@@ -56,7 +56,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
         <h1 className=" my-5 display-5 fw-bold ls-tight px-1 pt-5 setColorTypoh1 " 
         data-aos-duration='2500'
         data-aos='fade-up' >
-            Hi I 'am Marouane BS6 <span class="wave">👋</span>  <br/>
+            Hi I 'am Marouane <span class="wave">👋</span>  <br/>
            <span className='typing' >full-stack developer </span> 
           </h1>
           </div>

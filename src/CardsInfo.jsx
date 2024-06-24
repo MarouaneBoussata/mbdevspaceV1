@@ -17,7 +17,7 @@ import img5 from './Images/360_F_633010478_nv1cWaUesz6cemPGZMtlgDjmSVNA3leq.jpg'
 import ExperienceModal from './ExperienceModal';
 import ProjectModal from './ProjectsModal';
 import ServiceModal from './ServiceModal';
-const PDF_FILE_URL = "https://mb6devops.netlify.app/Marouane_BoussataCV.pdf";
+const PDF_FILE_URL = "https://mb6devops.netlify.app/Marouane_Boussata_CV.pdf";
 export default function App() {
   const [downloading, setDownloading] = useState(false);
       
