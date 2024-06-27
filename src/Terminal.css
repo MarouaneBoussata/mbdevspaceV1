@@ -12,6 +12,7 @@ margin-top: auto;
 padding: auto;
 font-family: 'Courier New', Courier, monospace;
 background: #00001b;
+
   }
 
   .setheightTerminal{
@@ -68,4 +69,19 @@ background: #00001b;
   .setPrompt{
     color: rgb(195, 216, 11);
     
+  }
+  @media screen and (min-width:0px) and (max-width : 369px){
+    .setTerminalContainer{
+        height: 200vh;
+        color: aliceblue;
+        margin-top: auto;
+        padding: auto;
+        font-family: 'Courier New', Courier, monospace;
+        background: #00001b;
+        width: 1000px;
+          }
+          .setheightTerminal{
+            width: 1000px;
+           height: 150vh;
+          }
   }
