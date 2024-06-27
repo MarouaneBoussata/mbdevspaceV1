@@ -3,9 +3,9 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import img2 from './Images/mbdevspace-logos_transparent.png'
 export default function App() {
   return (
-    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+    <MDBFooter className='text-center  text-lg-start text-muted setbgb'>
   
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+      <section className='d-flex justify-content-center justify-content-lg-between text-white p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
         </div>
@@ -30,7 +30,7 @@ export default function App() {
         </div>
       </section>
 
-      <section className=''>
+      <section className='text-white'>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
@@ -102,7 +102,7 @@ export default function App() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+      <div className='text-center p-4 text-white' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2024 Copyright:
         <a className='text-reset fw-bold' href='/'>
          www.devspace.com

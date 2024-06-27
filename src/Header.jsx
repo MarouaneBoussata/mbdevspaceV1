@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import  './Style.css'
 import logoPortfolio from './Images/mbdevspace-logos_transparent.png'
+import img43 from './Images/terminal_14618048.png'
 import {
   MDBContainer,
   MDBNavbar,
@@ -12,6 +13,7 @@ import {
   MDBNavbarLink,
   MDBCollapse,
 } from 'mdb-react-ui-kit';
+
 export default function Header() {
   const [openBasic, setOpenBasic] = useState(false);
   const [fixed,setfixed]=useState(false);
@@ -37,8 +39,8 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
     <MDBContainer fluid className='position-sticky'>
     <MDBNavbarBrand className=''> 
        <div 
-         data-aos-duration='3500'
-         data-aos-delay='100'
+         data-aos-duration='500'
+         data-aos-delay='50'
          data-aos='fade-right'>
        <img src={logoPortfolio} className='brandIcon' alt='mb6 devspace mb6 devspace' /> </div>
        <div> <p className='brandText'> <span className='brandSpan1'> MB6 </span> DevSpace </p> </div> 
@@ -52,9 +54,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
           <MDBIcon icon='bars' fas />
         </MDBNavbarToggler>
         <MDBCollapse navbar open={openBasic}>
-          <MDBNavbarNav data-aos-duration='5500'
-         data-aos-delay='100'
-         data-aos='fade-down' className='mr-auto d-flex justify-content-center mb-2 mb-lg-0 '>
+          <MDBNavbarNav className='mr-auto d-flex justify-content-center align-items-center mb-2 mb-lg-0 '>
             <MDBNavbarItem>
             <MDBNavbarLink className=''  active aria-current='page' href='/'> 
             <span className='setItemNav'> Home </span>
@@ -73,6 +73,9 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink  href='/contactMe'><span className='setItemNav'>Contact me</span></MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink  href='/Terminal'><span className='setItemNav'><img  src={img43}/></span></MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
        

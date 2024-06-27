@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import  './HeaderPages.css'
+import img44 from './Images/terminal_14618048 (1).png'
 import logoPortfolio from './Images/mbdevspace-logos_transparent.png'
 import {
   MDBContainer,
@@ -10,11 +11,6 @@ import {
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
-  MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 export default function HeaderPages() {
@@ -70,6 +66,11 @@ window.addEventListener('scroll', setFixed)
             <MDBNavbarItem>
               <MDBNavbarLink  href='/contactMe'><span className='setItemNav1'>Contact me</span></MDBNavbarLink>
             </MDBNavbarItem>
+            <MDBNavbarItem>
+            <MDBNavbarLink  href='/Terminal'><span className=''><img  src={img44}/></span></MDBNavbarLink>
+            </MDBNavbarItem>
+
+            
           </MDBNavbarNav>
           <div className='d-flex setmgHeader'><label className=' text-light fw-bold '>NETWORKS </label> : 
 
