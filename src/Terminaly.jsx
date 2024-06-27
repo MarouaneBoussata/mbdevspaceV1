@@ -236,6 +236,7 @@ const setPrompt = useState([
             <div>{art}</div>
             <p>{guide}</p>
             <Terminal className='setheightTerminal'  prompt={setPrompt}/>
+            <button type="submit" style={{ display: 'none' }}></button>
         </div>
      
     );

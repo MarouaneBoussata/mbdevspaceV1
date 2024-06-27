@@ -78,10 +78,11 @@ background: #00001b;
         padding: auto;
         font-family: 'Courier New', Courier, monospace;
         background: #00001b;
-        width: 1000px;
+        width: 600px;
+        max-height: 250vh; 
           }
           .setheightTerminal{
-            width: 1000px;
-           height: 150vh;
+            max-height: 290vh; 
+            
           }
   }
