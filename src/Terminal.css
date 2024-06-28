@@ -63,7 +63,7 @@ background: #00001b;
   .right-section {
     flex: 1; /* Takes up remaining space */
     display: flex;
-    margin-left: -12%;
+   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .setPrompt{

@@ -75,7 +75,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
               <MDBNavbarLink  href='/contactMe'><span className='setItemNav'>Contact me</span></MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink  href='/Terminal'><span className='setItemNav'><img  src={img43}/></span></MDBNavbarLink>
+              <MDBNavbarLink  href='/redtoTerminal'><span className='setItemNav'><img  src={img43}/></span></MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
        
@@ -85,8 +85,6 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
 <div><a href='https://www.instagram.com/marvane_mw?igsh=MXJlaTVkcWVidTNzNw%3D%3D&utm_source=qr' target='_blank'><MDBIcon className='mx-2' color='primary' size='lg'  fab icon="instagram" /></a></div>
 <div><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=boussata80@gmail.com' target='_blank'><MDBIcon className='mx-2'fab color='primary'size='lg'  icon="google" /></a></div>
 <div><a href='http://www.linkedin.com/in/marouaneboussata' target='_blank'><MDBIcon className='mx-2'fab color='primary' size='lg'  icon="linkedin" /></a></div>
-
-
 
 </div>
 

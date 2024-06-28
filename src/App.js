@@ -7,8 +7,8 @@ import ContactMe from './ContactMe';
 import DisplayProject1 from './DisplayProject1';
 import DisplayProject2 from './DisplayProject2';
 import DisplayProject3 from './DisplayProject3';
-
 import Terminaly from './Terminaly';
+import RedirectTerminal from './RedirectTerminal';
 
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
            <Route path="/skills" element={<Skills/>}></Route>  
            <Route path="/ContactMe" element={<ContactMe/>}></Route>  
            <Route path="/Terminal" element={<Terminaly/>}></Route>  
+             <Route path="/redtoTerminal" element={<RedirectTerminal/>}></Route>  
       </Routes>
     </Router>
     </>
