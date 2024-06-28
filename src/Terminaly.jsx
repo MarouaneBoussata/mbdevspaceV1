@@ -33,12 +33,15 @@ const setPrompt = useState([
     const commandHandler = (text) => {
         let response;
         let argsIndex = text.indexOf(' ');
-        let command = argsIndex !== -1 ? text.substring(0, argsIndex) : text;
-
+        let command = argsIndex !== -1 ? text.substring(0, argsIndex) : text.toLowerCase();
+        
         switch (command) {
             case 'date':
                 response = 'Today is ' + new Date().toDateString();
                 break;
+                case 'restart':
+                  window.location.reload();
+                  break;
         
                 case 'help':
                   response = [
@@ -51,7 +54,8 @@ const setPrompt = useState([
                         <li>"project" : Explore a selection of projects I've developed.</li>
                         <li>"contact" : Get in touch with me.</li>
                         <li>"clear" : clear the console screen.</li>
-                        <li>"other" :quit the terminal and go back to the home.
+                        <li>"restart" : restart the terminal</li>
+                        <li>  
                             <ul>
                             <li>"date" :show date of today.</li>
                             <li>Other things are coming ...</li>
@@ -235,8 +239,9 @@ const setPrompt = useState([
             <p>{welcomeMessage}</p>
             <div>{art}</div>
             <p>{guide}</p>
-            <Terminal type='text' className='setheightTerminal'  prompt={setPrompt}/>
+            <Terminal type='text' className='setheightTerminal'  prompt={setPrompt}>
             <button type="submit" style={{ display: 'none' }}></button>
+            </Terminal>
         </div>
      
     );
