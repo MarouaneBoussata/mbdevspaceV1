@@ -55,14 +55,15 @@ const setPrompt = useState([
                         <li>"contact" : Get in touch with me.</li>
                         <li>"clear" : clear the console screen.</li>
                         <li>"restart" : restart the terminal</li>
-                      
+                        
+                          
                             <li>"date" :show date of today.</li>
                             <li>Other things are coming ...</li>
-                           
+                          
 
 
 
-                        </li>
+                        
                         <li>"exit" :quit the terminal and go back to the home.</li>
                         
                       </ul>
