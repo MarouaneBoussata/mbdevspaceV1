@@ -6,6 +6,16 @@ import './Terminal.css'
 import TerminalHeader from './TerminalHeader';
 
 const Terminaly = () => {
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+        const input = event.target.value.trim();
+        if (input) {
+            TerminalService.emit('command', input);
+        }
+        event.target.value = '';
+    }
+  };
+
     const Navigate = useNavigate();
   const [welcomeMessage, setWelcomeMessage] = useState("Welcome to my terminal V1.06! Explore my skills, projects, experience, and contact information through simple commands.");
 const [art,setArt]=useState([
@@ -239,7 +249,7 @@ const setPrompt = useState([
             <p>{welcomeMessage}</p>
             <div>{art}</div>
             <p>{guide}</p>
-            <Terminal type='text' className='setheightTerminal'  prompt={setPrompt}>
+            <Terminal type='text' onKeyUp={handleKeyPress} onKeyDown={handleKeyPress} className='setheightTerminal'  prompt={setPrompt}>
             <button type="submit" style={{ display: 'none' }}></button>
             </Terminal>
         </div>
