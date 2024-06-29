@@ -9,6 +9,7 @@ import DisplayProject2 from './DisplayProject2';
 import DisplayProject3 from './DisplayProject3';
 import Terminaly from './Terminaly';
 import RedirectTerminal from './RedirectTerminal';
+import Weatherapps from './Weatherapps';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
            <Route path="/ContactMe" element={<ContactMe/>}></Route>  
            <Route path="/Terminal" element={<Terminaly/>}></Route>  
              <Route path="/redtoTerminal" element={<RedirectTerminal/>}></Route>  
+             <Route path="/weather-apps" element={<Weatherapps/>}></Route>  
       </Routes>
     </Router>
     </>

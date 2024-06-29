@@ -12,8 +12,15 @@ import {
   MDBNavbarItem,
   MDBNavbarLink,
   MDBCollapse,
+  MDBTooltip,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
 } from 'mdb-react-ui-kit';
+import { Navigate, useNavigate } from 'react-router-dom';
 export default function HeaderPages() {
+  const Navigate= useNavigate();
   const [openBasic, setOpenBasic] = useState(false);
   const [fixed,setfixed]=useState(false);
   function setFixed(){
@@ -67,7 +74,22 @@ window.addEventListener('scroll', setFixed)
               <MDBNavbarLink  href='/contactMe'><span className='setItemNav1'>Contact me</span></MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-            <MDBNavbarLink  href='/Terminal'><span className=''><img  src={img44}/></span></MDBNavbarLink>
+              <MDBDropdown>
+                <MDBDropdownToggle tag='a' className='nav-link ' role='button'>
+                <span className='setItemNav1'>Advertisement</span>
+                </MDBDropdownToggle>
+                <MDBDropdownMenu>
+                  <MDBDropdownItem link onClick={()=>Navigate('/weather-apps')}>  <span className='setItemNav'>Weather apps</span></MDBDropdownItem>
+                  <MDBDropdownItem link>  <span className='setItemNav'>Crypto apps</span></MDBDropdownItem>
+                  <MDBDropdownItem link disabled>coming soon</MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+            <MDBTooltip placement='bottom' tag='a' className='bg-transparent' title='Terminal'>    
+     
+              <MDBNavbarLink  href='/redtoTerminal'><span className='setItemNav'><img  src={img44}/></span></MDBNavbarLink>
+              </MDBTooltip>
             </MDBNavbarItem>
 
             
