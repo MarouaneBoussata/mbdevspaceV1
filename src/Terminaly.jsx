@@ -252,7 +252,7 @@ const setPrompt = useState([
             <div>{art}</div>
             <p>{guide}</p>
             <Terminal type='text' onKeyUp={handleKeyPress} className='setheightTerminal'  prompt={setPrompt}>
-            <button type="submit" style={{ display: 'none' }}></button>
+            <input type="text" className="terminal-input" onKeyUp={handleKeyPress} />
             </Terminal>
         </div>
      
