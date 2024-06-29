@@ -12,6 +12,7 @@ import CardsInfo from './CardsInfo';
 import Skillstech from './Skillstech';
 import FormContact from './FormContact';
 import Certificate from './Certificate';
+import {  Typewriter } from 'react-simple-typewriter'
 
 function Home() {
 
@@ -57,7 +58,15 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
         data-aos-duration='2500'
         data-aos='fade-up' >
             Hi I 'am Marouane <span class="wave">👋</span>  <br/>
-           <span className='typing' >full-stack developer </span> 
+           <span className='' >   <Typewriter
+            words={['Full-stack developer','software developer']}
+            loop={100}
+            cursor
+            typeSpeed={120}
+            deleteSpeed={20}
+            
+        
+          /> </span> 
           </h1>
           </div>
 

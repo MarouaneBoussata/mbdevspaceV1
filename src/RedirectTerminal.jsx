@@ -4,15 +4,9 @@ import './Redirect.css'
 import Logo from './Images/mbdevspace-logos_transparent.png'
 import {  MDBIcon } from 'mdb-react-ui-kit'
 import { useNavigate } from 'react-router-dom'
-import { useTypewriter, Cursor, Typewriter } from 'react-simple-typewriter'
+import {  Typewriter } from 'react-simple-typewriter'
 const RedirectTerminal = () => {
 
-  const {text} = useTypewriter({
-    words:['simple','modern','and responsive interface','Give it a try!'],
-  loop : {},
-  typeSpeed : 120,
-  deleteSpeed:80,
-});
 
   const Navigate=useNavigate()
 
@@ -34,8 +28,8 @@ const RedirectTerminal = () => {
    Welcome to my terminal! Here, you can learn about me through <span>
     
    <Typewriter
-            words={['simple','modern','and responsive interface, Give it a try!']}
-            loop={4}
+            words={['simple modern and responsive interface, Give it a try!']}
+            loop={1}
             cursor
             typeSpeed={120}
             deleteSpeed={20}
