@@ -1,0 +1,53 @@
+.setHeader1{z-index: 5;
+  background: rgb(12,0,41);
+  background: linear-gradient(0deg, rgba(12,0,41,0.2721463585434174) 2%, rgba(0,17,83,0.5186449579831933) 73%);
+  border-bottom-style:hidden;
+}
+
+.brandText1{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    display: inline;
+    position: relative;
+    margin-top: 5px;
+    color: hsl(224, 80%, 66%);
+    }
+    
+.brandSpan11{
+    color:rgba(91, 81, 175, 0.788)
+}
+
+.setItemNav1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 4px;
+    background-color: #ffffff94;
+    bottom: -3px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  
+  }
+  
+  .setItemNav1:hover::before {
+    transform-origin: left;
+    transform: scaleX(1); 
+  }
+
+ 
+  .setItemNav1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px;
+    font-weight: 700px;
+    color: #ffffff;
+    position: relative;
+    text-decoration: none;
+    text-decoration: none;
+  }

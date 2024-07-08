@@ -1,0 +1,88 @@
+.box {
+    font-family: monospace;
+    font-size: 1.5em;
+    line-height: 1.5;
+    white-space: pre;
+    color:rgb(74, 79, 121);
+  }
+  .setTerminalContainer{
+height: auto;
+color: aliceblue;
+margin-top: auto;
+padding: auto;
+font-family: 'Courier New', Courier, monospace;
+background: #00001b;
+
+  }
+
+  .setheightTerminal{
+    height: 89vh;
+  }
+  .ul1 {
+    list-style-type: none;
+    
+    display: flex;
+  }
+  
+.ul1 .li1:before {
+  content: "•";
+  font-weight: 900; /* Adjust font weight to make it bolder */
+  font-size: 3.2em; /* Adjust font size for the bullet */
+  line-height: 1; /* Ensure line height matches the bullet size */
+  margin-left: -5px;
+}
+  
+  .ul1 .li1:nth-child(1):before {
+    color: red;
+  }
+  
+  .ul1 .li1:nth-child(2):before {
+    color: yellow;
+  }
+  
+  .ul1 .li1:nth-child(3):before {
+    color: green;
+  }
+  .setHeaderT{
+    background-color: #202025;
+    margin-bottom: 50px;
+    height: 50px;
+  }
+
+  .setHeaderTeminal{
+    margin-left: -15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .left-section {
+    flex: 1; /* Takes up remaining space */
+  }
+  
+  .right-section {
+    flex: 1; /* Takes up remaining space */
+    display: flex;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .setPrompt{
+    color: rgb(195, 216, 11);
+    
+  }
+  @media screen and (min-width:0px) and (max-width : 369px){
+    .setTerminalContainer{
+        height: 200vh;
+        color: aliceblue;
+        margin-top: auto;
+        padding: auto;
+        font-family: 'Courier New', Courier, monospace;
+        background: #00001b;
+        width: 600px;
+        max-height: 250vh; 
+          }
+          .setheightTerminal{
+            max-height: 290vh; 
+            
+          }
+  }
