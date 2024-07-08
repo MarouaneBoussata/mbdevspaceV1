@@ -16,6 +16,7 @@ import usePreventZoom from './Disablezoom'
 
 function App() {
 usePreventZoom();
+
     return <>
     
     <Router>     
