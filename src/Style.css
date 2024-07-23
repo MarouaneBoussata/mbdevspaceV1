@@ -350,12 +350,14 @@ width: 100%;
 }
 .setColorTypoh2{
   color: hsl(227, 28%, 30%);
-  font-size:40px;
+  font-size:35px;
+  display: flex;
+  justify-content: center;
   
 }
 .profilePicture{
   margin-top: 10%;
-height: 500px;
+height: 470px;
 box-shadow: 0px 20px 5px 5px rgba(0, 0, 0, 0.2);
 animation: animate 5s ease-in-out infinite;
 transform: all is ease-in-out;
