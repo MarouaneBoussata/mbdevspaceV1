@@ -213,7 +213,7 @@ const setPrompt = useState([
 
             default:
                 response = [
-                  <p className=' text-danger'>Unknown command : {command}</p>
+                  <p className=' text-danger'>Unknown command : {command} - <span className='text-white'>Type "help" to display the correct commands.</span></p>
                 ]
                 break;
                 

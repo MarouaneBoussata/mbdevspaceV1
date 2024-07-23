@@ -13,6 +13,7 @@ import Skillstech from './Skillstech';
 import FormContact from './FormContact';
 import Certificate from './Certificate';
 import {  Typewriter } from 'react-simple-typewriter'
+import Education from './Education';
 
 function Home() {
 
@@ -58,7 +59,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
         data-aos-duration='2500'
         data-aos='fade-up' >
             Hi I 'am Marouane <span class="wave">👋</span>  <br/>
-           <span className='' >   <Typewriter
+           <span className='setColorTypoh2' >   <Typewriter
             words={['Full-stack developer','software developer']}
             loop={100}
             cursor
@@ -138,6 +139,11 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
     <Project/>
     </div>  
   </section>
+
+  <section className=''>
+  <div className=' mb-5'> <MDBCardTitle className='setTitleCard '> Academic career </MDBCardTitle> </div>
+<Education/>
+      </section>
   
 
 

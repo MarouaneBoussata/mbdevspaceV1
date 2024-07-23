@@ -11,9 +11,10 @@ color: aliceblue;
 margin-top: auto;
 padding: auto;
 font-family: 'Courier New', Courier, monospace;
-background: #00001b;
-
+background: rgb(56,105,115);
+background: radial-gradient(circle, rgba(56,105,115,1) 1%, rgba(31,20,62,1) 74%, rgba(31,5,26,1) 86%);
   }
+  
 
   .setheightTerminal{
     height: 89vh;

@@ -348,6 +348,11 @@ width: 100%;
     color: hsl(254, 94%, 14%);
     
 }
+.setColorTypoh2{
+  color: hsl(227, 28%, 30%);
+  font-size:40px;
+  
+}
 .profilePicture{
   margin-top: 10%;
 height: 500px;
