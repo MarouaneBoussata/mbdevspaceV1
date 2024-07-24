@@ -3,17 +3,17 @@ import Header from'./Header'
 import Footer from'./Footer'
 import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardImage, MDBBtn } from 'mdb-react-ui-kit';
 import {MDBCardTitle} from 'mdb-react-ui-kit';
-import imgprfl from './Images/f7b84a34-0f3a-49b6-8f5f-6979ad153779.jpg'
+import imgprfl from './Images/f7b84a34-0f3a-49b6-8f5f-6979ad153779.jpeg'
 import './Style.css'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
 import Project from './Projects';
 import CardsInfo from './CardsInfo';
-import Skillstech from './Skillstech';
 import FormContact from './FormContact';
 import Certificate from './Certificate';
 import {  Typewriter } from 'react-simple-typewriter'
 import Education from './Education';
+import Pillskills from './Pillskills';
 
 function Home() {
 
@@ -110,7 +110,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
       <section className='setMttech ' >
      <div className=' mb-5' > <MDBCardTitle className='setTitleCard text-uppercase '>most technologies i use </MDBCardTitle> </div>
  <div data-aos='zoom-in' data-aos-duration='500' data-aos-delay='50' >
-<Skillstech />
+<Pillskills/>
 </div>
       </section>
 

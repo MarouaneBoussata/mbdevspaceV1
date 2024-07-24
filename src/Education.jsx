@@ -13,9 +13,9 @@ export default function Education() {
 <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2022 - 2023"
-    iconStyle={{ background: 'radial-gradient(circle, rgba(66,136,150,1) 0%, rgba(31,20,62,1) 84%, rgba(31,5,26,1) 100%)', color: '#fff' }}
-    contentStyle={{ background: 'radial-gradient(circle, rgba(66,136,150,1) 0%, rgba(31,20,62,1) 84%, rgba(31,5,26,1) 100%)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgba(31,20,62,1)' }}
+    iconStyle={{ background: ' linear-gradient(225deg, rgba(17,6,73,1) 60%, rgba(60,75,133,1) 60%, rgba(17,6,73,1) 97%) ', color: '#fff' }}
+    contentStyle={{ background:'linear-gradient(225deg, rgba(17,6,73,1) 60%, rgba(60,75,133,1) 60%, rgba(17,6,73,1) 97%) ', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid rgba(60,75,133,1)' }}
    icon={<MDBIcon className='d-flex justify-content-center mt-4' size='2xl' fas icon="user-graduate" />}>
     <h3 className="vertical-timeline-element-title">Master <span className='h6'> (in progress ...)</span></h3>
     <h4 className="vertical-timeline-element-subtitle"> </h4>

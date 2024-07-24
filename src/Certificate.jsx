@@ -4,11 +4,7 @@ import { MDBCarousel, MDBCarouselItem, MDBCarouselCaption, MDBRipple } from 'mdb
 import img1 from './Images/frontendCert.png' 
 import img2 from './Images/backendce.png' 
 import img3 from './Images/datascience.png' 
- 
-
 export default function Certificate() {
-
-  
   
   return (
     <section className='PrjtCarousels' > 
@@ -40,8 +36,8 @@ export default function Certificate() {
       <MDBRipple rippleColor='primary' rippleTag='div' className='bg-image hover-overlay'>
         <img src={img3} className='d-block w-100 zoom' alt='...' />
         <MDBCarouselCaption>
-          <h5 className='text-dark text-uppercase'>INTRODUCTION TO DATA SCIENCE</h5>
-          <a href='https://coursera.org/verify/YA494KLVZBJZ' className=' hover-overlay fw-bolder bg-white text-pretty text-primary'>Click to check the credibility</a>
+        <h5 className='text-dark text-uppercase'>INTRODUCTION TO DATA SCIENCE</h5>
+        <a href='https://coursera.org/verify/YA494KLVZBJZ' className=' hover-overlay fw-bolder bg-white text-pretty text-primary'>Click to check the credibility</a>
         </MDBCarouselCaption>
         </MDBRipple>
       </MDBCarouselItem>

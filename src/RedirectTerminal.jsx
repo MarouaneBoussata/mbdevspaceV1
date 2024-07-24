@@ -15,7 +15,7 @@ const RedirectTerminal = () => {
 
  
     
-    <video autoPlay loop muted plays-inline className=' bgvideo'>     
+    <video autoPlay loop muted plays-inline className='bgvideo'>     
 <source src={videobg} type="video/mp4"/>
 </video>
 

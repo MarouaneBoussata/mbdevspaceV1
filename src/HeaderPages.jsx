@@ -76,7 +76,7 @@ window.addEventListener('scroll', setFixed)
             <MDBNavbarItem>
               <MDBDropdown>
                 <MDBDropdownToggle tag='a' className='nav-link ' role='button'>
-                <span className='setItemNav1'>Advertisement</span>
+                <span className='setItemNav1'>Divertisement</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem link onClick={()=>Navigate('/weather-apps')}>  <span className='setItemNav'>Weather apps</span></MDBDropdownItem>

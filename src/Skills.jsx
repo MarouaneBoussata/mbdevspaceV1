@@ -7,6 +7,7 @@ import './Skillstech'
 import Breadcrumb from './Breadcrumb';
 import Skillstech from './Skillstech';
 import Certificate from './Certificate';
+import Pillskills from './Pillskills';
 const Skills = () => {
   return (
     <div>
@@ -80,7 +81,7 @@ const Skills = () => {
     <p className='skills-p1'>
 
     I specialize in developing robust applications using a variety of essential technologies. For front-end and back-end development, I leverage JavaScript extensively. It allows me to create flexible and powerful solutions that enhance user experience and application functionality. In database management, I am proficient in SQL, ensuring efficient data handling and optimization. This includes expertise in managing MSSQL, MySQL, and Oracle databases, ensuring reliable data solutions across different platforms. Additionally, I am skilled in version control, testing frameworks, and deployment tools, enabling me to deliver high-quality, scalable applications tailored to meet specific project requirements and industry standards.    </p>
-    <Skillstech/>
+    <Pillskills/>
 
       </section>
 

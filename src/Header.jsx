@@ -86,7 +86,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
             <MDBNavbarItem>
               <MDBDropdown>
                 <MDBDropdownToggle tag='a' className='nav-link ' role='button'>
-                <span className='setItemNav'>Advertisement</span>
+                <span className='setItemNav'>Divertisement</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem link onClick={()=>Navigate('weather-apps')}>  <span className='setItemNav'>Weather apps</span></MDBDropdownItem>
