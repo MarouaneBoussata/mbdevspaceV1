@@ -170,8 +170,8 @@ background: linear-gradient(225deg, rgba(3,167,177,1) 41%, rgba(13,212,224,1) 41
 }
 
 body{  
-  background: rgb(232,236,255);
-  background: radial-gradient(circle, rgba(232,236,255,1) 45%, rgba(255,255,255,1) 100%);
+  background: rgb(245,246,255);
+  background: radial-gradient(circle, rgba(245,246,255,1) 14%, rgba(255,255,255,1) 65%);
 }
 
 .full-wh {
