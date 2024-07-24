@@ -41,7 +41,16 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
 }
   return (
     <div className='homeBackground'>
-      
+      <div className='absolute'>
+        <div className='absolute inset-0 justify-centering'>
+<div className='bg-shape1 bg-teal opacity-50f bg-blur'></div>
+<div className=' bg-shape2 bg-primary opacity-50f bg-blur'></div>
+<div className=' bg-shape1 bg-purple opacity-50f bg-blur'></div>
+
+
+
+        </div>
+      </div>
 
       
     <header>
