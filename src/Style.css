@@ -11,7 +11,7 @@
 .absolute{
   z-index: -2;
   position: fixed;
-  top: 200px !important;
+  top: 20% !important;
   inset: 0;
   justify-content: center;
   display: inline-flex;

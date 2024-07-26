@@ -3,7 +3,7 @@ import Header from'./Header'
 import Footer from'./Footer'
 import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardImage, MDBBtn } from 'mdb-react-ui-kit';
 import {MDBCardTitle} from 'mdb-react-ui-kit';
-import imgprfl from './Images/f7b84a34-0f3a-49b6-8f5f-6979ad153779.jpeg'
+import imgprfl from './Images/1000075708.jpg'
 import './Style.css'
 import 'aos/dist/aos.css'
 import AOS from 'aos'

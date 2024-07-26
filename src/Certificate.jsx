@@ -16,7 +16,7 @@ export default function Certificate() {
         <img src={img1} className='d-block w-100 zoom' alt='...' />
         <MDBCarouselCaption>
           <h5 className='text-dark fw-bold text-uppercase'> Back-end development</h5> 
-          <a href='https://coursera.org/verify/2FC6G4GBZXR6' className=' hover-overlay fw-bolder bg-white text-pretty text-primary'>Click to check the credibility</a>
+          <a href='https://coursera.org/verify/2FC6G4GBZXR6' className=' hover-overlay fw-bolder bg-white text-pretty text-primary'>check the credibility</a>
         </MDBCarouselCaption>
         </MDBRipple>
       </MDBCarouselItem>
@@ -27,7 +27,7 @@ export default function Certificate() {
         <img src={img2} className='d-block w-100 zoom' alt='...' />
         <MDBCarouselCaption>
           <h5 className='text-dark text-uppercase'>Front-end Development</h5>
-          <a href='https://coursera.org/verify/5HSBCZHB55J6' className=' hover-overlay fw-bolder bg-white text-pretty text-primary'>Click to check the credibility</a>
+          <a href='https://coursera.org/verify/5HSBCZHB55J6' className=' hover-overlay fw-bolder bg-white text-pretty text-primary'>check the credibility</a>
         </MDBCarouselCaption>
         </MDBRipple>
       </MDBCarouselItem>
@@ -37,7 +37,7 @@ export default function Certificate() {
         <img src={img3} className='d-block w-100 zoom' alt='...' />
         <MDBCarouselCaption>
         <h5 className='text-dark text-uppercase'>INTRODUCTION TO DATA SCIENCE</h5>
-        <a href='https://coursera.org/verify/YA494KLVZBJZ' className=' hover-overlay fw-bolder bg-white text-pretty text-primary'>Click to check the credibility</a>
+        <a href='https://coursera.org/verify/YA494KLVZBJZ' className=' hover-overlay fw-bolder bg-white text-pretty text-primary'>check the credibility</a>
         </MDBCarouselCaption>
         </MDBRipple>
       </MDBCarouselItem>
