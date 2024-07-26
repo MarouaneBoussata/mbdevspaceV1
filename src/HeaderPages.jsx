@@ -37,7 +37,7 @@ window.addEventListener('scroll', setFixed)
   return (
     <div className='setHeader1'> 
     
-    <MDBNavbar expand='lg' fixed='top'  className='setHeader1'>
+    <MDBNavbar expand='lg' fixed='top'  className='setHeader1'style={{ backdropFilter: 'blur(10px)'}}>
     <MDBContainer fluid className='position-sticky'>
     <MDBNavbarBrand className=''> 
        <div>

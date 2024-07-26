@@ -43,7 +43,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
   return (
   
     <div className='setHeader'> 
-    <MDBNavbar expand='lg' fixed='top' className='setHeader'>
+    <MDBNavbar expand='lg' fixed='top' className='setHeader' style={{background: 'hsla(0, 0%, 100%, 0.55)',  backdropFilter: 'blur(20px)'}}>
     <MDBContainer fluid className='position-sticky'>
     <MDBNavbarBrand className=''> 
        <div 
