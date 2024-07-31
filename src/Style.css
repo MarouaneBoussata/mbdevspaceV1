@@ -283,8 +283,8 @@ width: 100%;
     position: absolute;
     width: 100%;
     height: 3px;
-    border-radius: 4px;
-    background-color: #272121;
+    border-radius: 10px;
+    background-color: #031340;
     bottom: -4px;
     left: 0;
     transform-origin: right;
@@ -296,6 +296,7 @@ width: 100%;
   .setItemNav:hover::before {
     transform-origin: left;
     transform: scaleX(1); 
+    
   }
 
  
@@ -305,10 +306,8 @@ width: 100%;
     font-weight: 600;
     margin: 5px;
     font-weight: 700px;
-    color: #00043f;
+    color: #080e47e4;
     position: relative;
-    text-decoration: none;
-    text-decoration: none;
   }
 
   
@@ -407,7 +406,7 @@ width: 100%;
 }
 .setColorTypoh2{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: hsl(227, 28%, 30%);
+  color: hsl(245, 94%, 25%);
   font-size:34px;
   font-weight: 100;
   display: flex;

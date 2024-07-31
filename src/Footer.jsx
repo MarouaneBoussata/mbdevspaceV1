@@ -81,6 +81,11 @@ export default function App() {
                   CONTACT ME
                 </a>
               </p>
+              <p>
+                <a href='https://mb6hero.netlify.app/' className='text-reset'>
+                  GAMING MODE 
+                </a>
+              </p>
             </MDBCol>
 
             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>

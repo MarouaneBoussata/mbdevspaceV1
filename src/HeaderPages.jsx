@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import  './HeaderPages.css'
 import img44 from './Images/terminal_14618048 (1).png'
 import logoPortfolio from './Images/mbdevspace-logos_transparent.png'
+import batman from './Images/Batman-Logo.png'
 import {
   MDBContainer,
   MDBNavbar,
@@ -23,6 +24,9 @@ export default function HeaderPages() {
   const Navigate= useNavigate();
   const [openBasic, setOpenBasic] = useState(false);
   const [fixed,setfixed]=useState(false);
+  const handleClick = () => {
+    window.location.href = 'https://mb6hero.netlify.app/'
+  }
   function setFixed(){
     if(window.scrollY>=200)
     {
@@ -80,7 +84,8 @@ window.addEventListener('scroll', setFixed)
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem link onClick={()=>Navigate('/weather-apps')}>  <span className='setItemNav'>Weather apps</span></MDBDropdownItem>
-                  <MDBDropdownItem link>  <span className='setItemNav'>Crypto apps</span></MDBDropdownItem>
+                 
+                  <MDBTooltip placement='right' tag='a' className='bg-transparent' title='Game mode Portfolio'> <MDBDropdownItem link onClick={handleClick}> <span className=' d-flex justify-content-center'><img  src={batman} alt='notfound' /></span></MDBDropdownItem> </MDBTooltip>
                   <MDBDropdownItem link disabled>coming soon</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>

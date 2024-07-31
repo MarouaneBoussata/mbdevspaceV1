@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import  './Style.css'
 import logoPortfolio from './Images/mbdevspace-logos_transparent.png'
 import img43 from './Images/terminal_14618048.png'
+import batman from './Images/Batman-Logo.png'
 import {
   MDBContainer,
   MDBNavbar,
@@ -39,6 +40,9 @@ window.addEventListener('scroll', setFixed)
 const ref = useRef(null)
 const scrollClick = () => {
 ref.current?.scrollIntoView({behavior: 'smooth'})
+}
+const handleClick = () => {
+  window.location.href = 'https://mb6hero.netlify.app/'
 }
   return (
   
@@ -89,8 +93,9 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
                 <span className='setItemNav'>Divertisement</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
+                  
                   <MDBDropdownItem link onClick={()=>Navigate('weather-apps')}>  <span className='setItemNav'>Weather apps</span></MDBDropdownItem>
-                  <MDBDropdownItem link>  <span className='setItemNav'>Crypto apps</span></MDBDropdownItem>
+                  <MDBTooltip placement='right' tag='a' className='bg-transparent' title='Game mode Portfolio'> <MDBDropdownItem link onClick={handleClick}> <span className=' d-flex justify-content-center'><img  src={batman} alt='notfound' /></span></MDBDropdownItem> </MDBTooltip>
                   <MDBDropdownItem link disabled>coming soon</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
@@ -100,7 +105,7 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
            
             <MDBTooltip placement='bottom' tag='a' className='bg-transparent' title='Terminal'>    
      
-              <MDBNavbarLink  href='/redtoTerminal'><span className='setItemNav'><img  src={img43}/></span></MDBNavbarLink>
+              <MDBNavbarLink  href='/redtoTerminal'><span className=''><img src={img43}/></span></MDBNavbarLink>
               </MDBTooltip>
             </MDBNavbarItem>
            
