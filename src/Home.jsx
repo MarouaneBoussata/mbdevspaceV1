@@ -64,12 +64,12 @@ ref.current?.scrollIntoView({behavior: 'smooth'})
       <MDBRow className='w-100'> 
      <MDBCol col='12' md='6'>
 <div className=''>
-        <h1 className=" my-5 display-5 fw-bold ls-tight px-1 pt-5 setColorTypoh1 " 
+        <h1 className=" my-5 ls-tight px-1 pt-5 setColorTypoh1 " 
         data-aos-duration='2500'
         data-aos='fade-up' >
-            Hi I 'am Marouane <span class="wave">👋</span>  <br/>
-           <span className='setColorTypoh2' >   <Typewriter
-            words={['Full-stack developer','software developer']}
+            Hi I 'am Marouane <span class="wave">👋</span>  <br/> 
+           <span className='setColorTypoh2' > a <Typewriter
+            words={['Full-stack developer','software developer','web developer']}
             loop={100}
             cursor
             typeSpeed={120}

@@ -402,16 +402,15 @@ width: 100%;
 
 .setColorTypoh1{
     color: hsl(254, 94%, 14%);
-    
+   font-weight: 450;
+  
 }
 .setColorTypoh2{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: hsl(245, 94%, 25%);
-  font-size:34px;
-  font-weight: 100;
-  display: flex;
-  justify-content: center;
+  color: hsl(211, 53%, 43%);
+  font-size:1.75rem;
   
+
 }
 .profilePicture{
   margin-top: 10%;
