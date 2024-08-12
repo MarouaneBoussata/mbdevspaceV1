@@ -36,16 +36,16 @@ const {contactValue, contactHandler,sendMail,Gsm,setGsm,errors,spin} = contactMe
         <MDBRow>
           <MDBCol col='6'>
             <MDBInput wrapperClass='mb-4' value={contactValue.FirstName} onChange={contactHandler}  label='First name' id='FirstName' type='text'/>
-            {errors.FirstName && <p className='text-danger'>{errors.FirstName}</p>}
+            {errors.FirstName && <p className='text-white Error'>{errors.FirstName}</p>}
           </MDBCol>
           <MDBCol col='6'>
             <MDBInput wrapperClass='mb-4' label='Last name' id='SecondName' onChange={contactHandler} value={contactValue.SecondName} type='text'/>
-            {errors.SecondName && <p className='text-danger'>{errors.SecondName}</p>}
+            {errors.SecondName && <p className='text-white Error'>{errors.SecondName}</p>}
           </MDBCol>
         </MDBRow>
         <MDBInput wrapperClass='mb-4' label='Email' id='email' onChange={contactHandler} value={contactValue.email} type='email' required/>
-        {errors.email && <p className='text-danger'>{errors.email}</p>}
-        <div className='mt-2 mb-4'>
+        {errors.email && <p className='text-white Error'>{errors.email}</p>}
+        <div className=' mb-4'>
         <PhoneInput 
         wrapperClass='mb-4'
       placeholder="Enter phone number(optional)"
@@ -55,9 +55,9 @@ const {contactValue, contactHandler,sendMail,Gsm,setGsm,errors,spin} = contactMe
       />
       </div>
         <MDBInput wrapperClass='mb-4' label='Subject' id='subject' onChange={contactHandler} value={contactValue.subject} type='text'/>
-        {errors.subject && <p className='text-danger'>{errors.subject}</p>}
+        {errors.subject && <p className='text-white Error'>{errors.subject}</p>}
         <MDBTextArea wrapperClass='mb-4' label='description' placeholder='Write you demand here ...' id='description' value={contactValue.description} onChange={contactHandler} type='text'/>
-        {errors.description && <p className='text-danger'>{errors.description}</p>}
+        {errors.description && <p className='text-white Error'>{errors.description}</p>}
     
         <button onClick={sendMail} className='w-100 btn btn-primary shadow-lg mb-4 setbgbutton' size='md'>
       {spin ? (

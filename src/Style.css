@@ -60,7 +60,7 @@
   background-color:  rgb(30, 0, 255);
 }
 .bg-teal{
-  background-color: rgb(255,72,173);
+  background-color: rgb(72, 209, 255);
 }
 .bg-purple{
   background-color: rgb(140,0,215);
@@ -737,4 +737,13 @@ background-color: #e7ebff !important;
 }
 .setIndex1{z-index:5 !important;
 background-color: #00043f;
+}
+.Error{
+  margin-top: -24px;
+  display: flex;
+  justify-content: left;
+  background-color: rgba(255, 0, 51, 0.71);  
+  max-width: 185px;
+  padding-left: 10px;
+  
 }
